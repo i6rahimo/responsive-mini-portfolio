@@ -1,0 +1,74 @@
+.help {
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+        &-main {
+            font-weight: 500;
+            @include adaptiv-font(36, 24);
+            line-height: 42px;
+            padding-bottom: 15px;
+        }
+        &-submain {
+            font-weight: 400;
+            @include adaptiv-font(18, 16);
+            line-height: 27px;
+            width: 823px;
+            max-width: 100%;
+            margin: 0 auto;
+            span {
+                color: $blue;
+            }
+        }
+    }
+    &__hero {
+        border: 2px solid #ECECEC;
+        border-radius: 5px;
+        &-inner {
+            padding: 30px 70px 133px;
+        }
+        &-items {
+            display: flex;
+            flex-direction: column;
+        }
+        &-item {
+            cursor: pointer;
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+        &-header {
+            padding: 12px 10px;
+            background-color: #ECECEC;
+            border-radius: 5px;
+            width: 1030px;
+            max-width: 100%;
+            height: auto;
+            position: relative;
+        }
+        &-header::after {
+            content: url(../../img/helparrow.svg);
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: all .5s ease;
+        }
+        &-header.active::after {
+            transition: all .5s ease;
+            top: 10px;
+            transform: rotate(180deg);
+        }
+
+        &-content {
+            height: 0;
+            visibility: hidden;
+        }
+        &-content.show {
+            transition: all .1s ease-in-out;
+            margin: 12px 10px;
+            height: auto;
+            // transition: all .2s ease;
+            visibility: visible;
+        }
+    }
+}

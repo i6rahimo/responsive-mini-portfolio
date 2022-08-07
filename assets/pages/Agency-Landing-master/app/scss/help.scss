@@ -1,0 +1,92 @@
+.help {
+    margin-top: 10px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    &__l {
+        position: relative;
+        img {
+            width: 100%;
+            margin-top: 25px;
+
+            &::after {
+                content: url(../../img/imgshadow.pngs);
+                margin: 45px 0 0 33px;
+            }
+        }
+        &::after {
+            content: url(../../img/helpdot.png);
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    &__r {
+        padding-left: 32px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 52px;
+
+        span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        h3 {
+            padding-bottom: 14px;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 51px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    &__blocks {
+        padding-top: 47px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 80px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 22px;
+        }
+        p {
+            padding: 6px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            width: 243px;
+            height: 78px;
+        }
+    }
+    &__title-head {
+        display: flex;
+        align-items: center;
+        h4 {
+            margin-left: 15px;
+        }
+    }
+}
+.ball {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    background-color: #fca311;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -12%;
+    transition: 0.2s ease-in;
+    &:hover {
+        background-color: #e28b00;
+    }
+}

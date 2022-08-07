@@ -1,0 +1,31 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 125px;
+}
+.skills h3, .skills p {
+  color: white;
+}
+.skills__right {
+  max-width: 582px;
+}
+.skills__right-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 54px;
+}
+.skills__right-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.skills__btn {
+  margin-top: 30px;
+}
+
+.skills2 {
+  flex-direction: row-reverse;
+  padding-top: 40px;
+}
+/*# sourceMappingURL=skills.css.map */

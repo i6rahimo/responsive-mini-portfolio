@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gulp Browsersync</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="dist/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="/dist/script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header container">
+    <div class="header__menu">
+      <div class="header__logo">
+        <img src="img/logo.svg" alt="">
+      </div>
+      <nav class="nav">
+        <ul class="nav__link">
+          <li class="nav__lyst"><a href="" class="nav__item">About</a></li>
+          <li class="nav__lyst"><a href="" class="nav__item">Services</a></li>
+          <li class="nav__lyst"><a href="" class="nav__item">Client</a></li>
+          <li class="nav__lyst"><a href="" class="nav__item">Blog</a></li>
+          <li class="nav__lyst"><a href="" class="nav__item">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__burger">
+        <span id="btnChange"></span>
+        <span id="btnChange"></span>
+        <span id="btnChange"></span>
+      </div>
+    </div>
+    <div class="header__inner">
+      <div class="header__inner-main">
+        <div class="header__title">
+          <h1>Go digital with us</h1>
+          <p>We have designed hundreds of websites and helped<br> improve their online performance through SEO,<br> SEM
+            and Social Media Marketing</p>
+          <button class="buttonSee">See Portfolio</button>
+        </div>
+      </div>
+      <div class="header__inner-submain">
+        <div class="header__inner-subtitle">
+          <h2>We are experienced</h2>
+          <p>We have been around for a long time since 2010, thousands of products have been created, we are<br> always
+            here to provide new innovations for you</p>
+          <a href="#"><img src="img/Arrow.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="client container">
+    <div class="client__wrapper">
+
+      <div class="client__title">
+        <h2>Client</h2>
+        <p>Using Our Experience To Make Your Digital Experience Brighter</p>
+      </div>
+      <div class="client__corp">
+        <img class="client__img" src="img/microsoft.svg" alt="">
+        <img class="client__img" src="img/google.svg" alt="">
+        <img class="client__img img3" src="img/amazon.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="help container">
+    <div class="help__wrapper">
+      <div class="help__l">
+        <div class="ball"></div>
+        <img src="img/help.png" alt="">
+      </div>
+      <div class="help__r">
+        <div class="healp__title">
+          <span>Who We Help</span>
+          <h3>Specific challenges require specific solutions</h3>
+          <p>Some of the industries our digital agency specialises in</p>
+        </div>
+        <div class="help__blocks">
+          <div class="help__web">
+            <div class="help__title-head">
+              <img src="img/web.svg" alt="">
+              <h4>Web & Mobile Apps</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="help__design">
+            <div class="help__title-head">
+              <img src="img/design.svg" alt="">
+              <h4>Design Services</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="help__seo">
+            <div class="help__title-head">
+              <img src="img/seo.svg" alt="">
+              <h4>SEO</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="help__security">
+            <div class="help__title-head">
+              <img src="img/security.svg" alt="">
+              <h4>Security Tester</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work container">
+    <div class="work__wrapper">
+
+      <div class="work__l">
+        <div class="work__title">
+          <h3>
+            How does our process work?
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <button class="work__btn buttonSee">See Details</button>
+        </div>
+      </div>
+
+      <div class="work__r">
+        <div class="work__ball ball"></div>
+        <div class="work__item item1"><img src="img/item1.png" alt=""></div>
+        <div class="work__item item2"><img src="img/item2.png" alt=""></div>
+        <div class="work__item item3"><img src="img/item3.png" alt=""></div>
+        <div class="work__item item4"><img src="img/item4.png" alt=""></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="person container">
+
+    <div class="person__top">
+      <div class="person__top-title">
+        <span>Our Product</span>
+        <h4>We’ll let our work speak for itself</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+      </div>
+      <div class="person__top-btn">
+        <button class="btn-prev btn-slide"></button>
+        <button class="btn-next btn-slide"></button>
+      </div>
+    </div>
+
+    <div class="person__items">
+      <div class="person__item">
+        <img class="person__img" src="img/p1.png" alt="">
+        <h3 class="person__name">PT. ABCDE</h3>
+        <p class="person__dev">Web Development</p>
+        <button class="person__btn buttonSee">See Details</button>
+      </div>
+      <div class="person__item">
+        <img class="person__img" src="img/p2.png" alt="">
+        <h3 class="person__name">Rose Wood</h3>
+        <p class="person__dev">SEO</p>
+        <button class="person__btn buttonSee">See Details</button>
+      </div>
+      <div class="person__item">
+        <img class="person__img" src="img/p3.png" alt="">
+        <h3 class="person__name">CoSpace</h3>
+        <p class="person__dev">Presentation Template</p>
+        <button class="person__btn buttonSee">See Details</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="team container">
+    <div class="team__wrapper">
+      <div class="team__l">
+        <div class="ball"></div>
+        <img src="img/team.png" alt="">
+      </div>
+      <div class="team__r">
+        <div class="team__title">
+          <h3>Testimonials by them</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. -Joe Z</p>
+        </div>
+        <div class="team__btn">
+          <div class="team__btn-arrowprev btn-slide"></div>
+          <div class="team__btn-arrownext btn-slide"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer container">
+    <div class="footer__wrapper">
+      <div class="footer__title-l">
+        <img class="footer__logo" src="img/footerlogo.svg" alt="">
+        <p class="footer__title-top">Go digital with us</p>
+        <p class="footer__title-bottom">50 Raya Building Call us: 123-456-678</p>
+      </div>
+      <div class="footer__title-r">
+        <div class="footer__item-l">
+          <ul class="foote__ul-l">
+            <li class="footer__lyst-l"><a class="footer__link-l bold-link" href="">Company</a></li>
+            <li class="footer__lyst-l"><a class="footer__link-l" href="">About</a></li>
+            <li class="footer__lyst-l"><a class="footer__link-l" href="">Blog</a></li>
+            <li class="footer__lyst-l"><a class="footer__link-l" href="">Gallery</a></li>
+            <li class="footer__lyst-l"><a class="footer__link-l" href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__item-r">
+          <ul class="foote__ul-r">
+            <li class="footer__lyst-r"><a class="footer__link-r bold-link" href="">Social Media</a></li>
+            <li class="footer__lyst-r"><a class="footer__link-r" href="">facebook</a></li>
+            <li class="footer__lyst-r"><a class="footer__link-r" href="">Instagram</a></li>
+            <li class="footer__lyst-r"><a class="footer__link-r" href="">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p>Copyright © 2021 Steelthemes. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

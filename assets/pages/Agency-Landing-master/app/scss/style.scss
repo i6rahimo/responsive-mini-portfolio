@@ -1,0 +1,23 @@
+@import "vars";
+@import "reset";
+@import "header";
+@import "client";
+@import "help";
+@import "work";
+@import "team";
+@import "person";
+@import "footer";
+@import "respon";
+
+
+html {
+  font-family: $roboto;
+}
+
+.container {
+
+  max-width: 1260px;
+  margin: auto;
+  padding: 0 40px;
+  
+}

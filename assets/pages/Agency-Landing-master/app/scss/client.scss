@@ -1,0 +1,40 @@
+.client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        padding: 73px 20px;
+    }
+    &__title {
+        text-align: center;
+    h2 {
+        font-size: 36px;
+        font-weight: 500;
+
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        padding: 25px 0 50px 0;
+        line-height: 30px;
+    }
+}
+    &__corp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        img {
+            
+            margin: 0 20px  0 0;
+            padding-bottom: 60px;
+            
+        }
+           
+    }
+    .img3 {
+        margin-top: 20px;
+    }
+}

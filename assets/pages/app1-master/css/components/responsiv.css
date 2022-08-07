@@ -1,0 +1,87 @@
+@media (max-width: 1095px) {
+  .header__menu-icon {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 39px;
+  }
+
+  .header__wrapper {
+    display: block;
+  }
+
+  .menu__body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    height: 0;
+    background-color: #0f101f;
+    overflow: hidden;
+  }
+
+  .menu__body.active {
+    height: auto;
+    position: absolute;
+  }
+
+  .menu__list {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+
+  .menu__item {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .menu__item:not(:last-child) {
+    padding-right: 0;
+    padding-bottom: 50px;
+  }
+
+  .header__button {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .header__hero {
+    flex-wrap: wrap;
+  }
+  .header__hero-btn {
+    font-size: 14px;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-self: center !important;
+    text-align: center;
+  }
+
+  .footer__wrapper-up {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .footer__down {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 529px) {
+  .email__input-enter {
+    margin: 10px auto 30px auto;
+    text-align: center;
+  }
+
+  .email__input-btn {
+    margin: auto;
+  }
+
+  .email__input-wrapper {
+    border-radius: 20px !important;
+  }
+}
+/*# sourceMappingURL=responsiv.css.map */

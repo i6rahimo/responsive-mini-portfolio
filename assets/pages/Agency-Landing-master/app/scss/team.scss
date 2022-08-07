@@ -1,0 +1,62 @@
+.team {
+    &__wrapper {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 206px;
+        margin-bottom: 74px;
+    }
+
+    &__l {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: url(../../img/teamdots.png);
+            margin: -90px 0 0 -98px;
+        }
+        .ball {
+            width: 100px;
+            height: 100px;
+            opacity: 0.5;
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    &__r {
+        position: relative;
+        margin-left: 41px;
+        width: 100%;
+        max-width: 657px;
+    }
+
+    &__title {
+        width: 100%;
+        max-width: 627px;
+        padding-bottom: 140px;
+        h3 {
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 51px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        position: absolute;
+        right: 0;
+
+        .team__btn-arrowprev {
+            margin-right: 40px;
+            background-image: url(../../img/ar.svg);
+        }
+    }
+}

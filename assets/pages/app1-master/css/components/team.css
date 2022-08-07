@@ -1,0 +1,40 @@
+.team h3, .team p {
+  color: white;
+}
+.team__title {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.team__title-main {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 54px;
+}
+.team__title-submain {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.team__items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 30px;
+}
+.team__item-content {
+  padding: 32px 65px;
+}
+.team__item-bio {
+  margin-top: -50px;
+}
+.team__item-job {
+  text-transform: uppercase;
+}
+.team__item-content {
+  text-align: center;
+}
+/*# sourceMappingURL=team.css.map */
