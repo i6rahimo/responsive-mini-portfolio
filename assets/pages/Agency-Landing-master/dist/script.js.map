@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["toggleButton","document","getElementsByClassName","navbarLinks","addEventListener","classList","toggle"],"mappings":"AAAA,MAAMA,aAAeC,SAASC,uBAAuB,kBAAkB,GACjEC,YAAcF,SAASC,uBAAuB,OAAO,GAE3DF,aAAaI,iBAAiB,SAAS,KACrCD,YAAYE,UAAUC,OAAO","file":"script.js"}

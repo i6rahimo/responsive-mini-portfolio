@@ -1,0 +1,2 @@
+const toggleButton=document.getElementsByClassName("header__burger")[0],navbarLinks=document.getElementsByClassName("nav")[0];toggleButton.addEventListener("click",(()=>{navbarLinks.classList.toggle("active")}));
+//# sourceMappingURL=script.js.map
