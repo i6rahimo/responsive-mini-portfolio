@@ -321,9 +321,20 @@ the website, in dark theme
   height: 3px;
   background: #F2994A;
   border-radius: 32px;
+  transition: transform .3s ease;
 }
 .burger__span.active {
+  display: block;
   background: #fff;
+}
+.burger__span.active:nth-child(2) {
+  opacity: 0;
+}
+.burger__span.active:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+.burger__span.active:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
 }
 .burger__span:not(:last-child) {
   margin-bottom: 7px;
@@ -880,9 +891,7 @@ select {
   color: #fff;
 }
 
-.gift__wrapper img {
 
-}
 /*=============== TEAM ===============*/
 .team__title  {
   font-size: var(--biggest-font-size);
@@ -1145,7 +1154,7 @@ select {
   position: relative;
   width: 120px;
   height: 24px;
-  background-image: url('/assets/img/star-off.svg');
+  background-image: url('../img/star-off.svg');
   background-size: 24px auto;
   background-repeat: repeat-x;
 
@@ -1166,7 +1175,7 @@ select {
 }
 .raiting__star:checked,
 .raiting__star:hover {
-  background-image: url('/assets/img/star.svg');
+  background-image: url('../img/star.svg');
 }
 /* .raiting__star:hover ~ .raiting__star {
   background-image: url('/assets/img/star-off.svg');
@@ -1361,7 +1370,7 @@ select {
 .question__wrapper {
   max-width: 100%;
   box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.15);
-  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 42.35%), url('/assets/img/questionbg.webp');
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 42.35%), url('../img/questionbg.webp');
   background-size: cover;
   border-radius: 20px;
   padding: 46px 0 64px 81px;
@@ -1558,7 +1567,7 @@ select {
   width: 1300px;
   max-width: 100%;
   min-height: 720px;
-  background-image: url('/assets/img/contactbg.webp');
+  background-image: url('../img/contactbg.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1629,7 +1638,7 @@ select {
 
 .portfolio__ask {
   min-height: 496px ; 
-  background-image: url('/assets/img/portfoliobg.webp');
+  background-image: url('../img/portfoliobg.webp');
 }
 
 .about-title {
@@ -1640,5 +1649,5 @@ select {
 }
 .about-ask {
   min-height: 498px;
-  background-image: url('/assets/img/about-page-bg.webp');
+  background-image: url('../img/about-page-bg.webp');
 }

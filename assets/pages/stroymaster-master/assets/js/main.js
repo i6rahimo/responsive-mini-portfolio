@@ -1,6 +1,6 @@
 // import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
 const burger = document.querySelector('.burger')
-const whiteBurger = document.querySelector('.burger__span')
+const whiteBurger = document.querySelectorAll('.burger__span')
 const navbar = document.querySelector('.header__nav')
 const navbarList = document.querySelector('.header__list')
 const tabBtns = document.querySelectorAll('.project__item')
@@ -15,7 +15,9 @@ accordionBtns.forEach((e) => {
 burger.addEventListener('click', (e) => {
     navbar.classList.toggle('active')
     navbarList.classList.toggle('active')
-    whiteBurger.classList.toggle('active')
+    whiteBurger.forEach(e => {
+        e.classList.toggle('active')
+    })
 })
 
 
